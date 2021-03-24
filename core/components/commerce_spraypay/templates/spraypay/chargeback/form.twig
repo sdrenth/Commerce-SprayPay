@@ -1,0 +1,38 @@
+<div class="commerce-form-widget">
+    {% if values.save_success %}
+        <div class="ui message success">{{ values.save_success }}</div>
+    {% elseif values.save_error %}
+        <div class="ui message error">{{ lex('commerce.object_error_saving') }}</div>
+    {% endif %}
+
+    {# Custom. #}
+        {% if values.general_error %}
+            <div class="ui message error">{{ values.general_error }}</div>
+        {% endif %}
+    {# End custom. #}
+
+    <form action="{{ action }}" method="POST" class="ui form commerce-form {% if submitToModal %}commerce-ajax-form{% endif %} {% if values.hasErrors %}error{% endif %}">
+        <input type="hidden" name="_widget" value="{{ key }}">
+        <input type="hidden" name="_handleSubmit" value="1">
+
+        {% for field in fields %}
+            {% autoescape false %}
+                {{ field.HTML() }}
+            {% endautoescape %}
+        {% endfor %}
+
+        <div id="commerce-modal-actions" class="ui very basic vertical clearing segment">
+            {% if not hideCloseBtn %}
+                <button class="ui button commerce-modal-close" type="button" aria-label="{{ lex('commerce.close') }}">
+                    {{ lex('commerce.close') }}
+                </button>
+            {% endif %}
+            {% if not hideSaveBtn %}
+                <button type="submit" class="ui right labeled primary icon button">
+                    {{ lex('commerce.save') }}
+                    <i class="checkmark icon"></i>
+                </button>
+            {% endif %}
+        </div>
+    </form>
+</div>

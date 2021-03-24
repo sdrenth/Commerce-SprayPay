@@ -1,0 +1,32 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'commerce_spraypay-1.0.0-rc1/xPDOFileVehicle/5fc14671a7b58d0ca76588119f9cd60b/',
+    'target' => 'return MODX_CORE_PATH . \'components/\';',
+    'name' => 'commerce_spraypay',
+  ),
+  'abort_install_on_vehicle_fail' => true,
+  'vehicle_class' => 'xPDOFileVehicle',
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"commerce_spraypay-1.0.0-rc1\\/xPDOFileVehicle\\/5fc14671a7b58d0ca76588119f9cd60b.requirements.script.validator","name":"requirements.script"}',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"commerce_spraypay-1.0.0-rc1\\/xPDOFileVehicle\\/5fc14671a7b58d0ca76588119f9cd60b.loadmodules.resolver.resolver","name":"loadmodules.resolver"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => '606d009db835b95dd92a6f76ddb940bc',
+  'package' => '',
+  'signature' => '5fc14671a7b58d0ca76588119f9cd60b',
+  'native_key' => '606d009db835b95dd92a6f76ddb940bc',
+);
