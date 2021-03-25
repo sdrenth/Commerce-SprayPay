@@ -1,0 +1,15 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => '/Users/sander/Development/projects/vhosts/koicentrumsteenwijk/private/commerce_spraypay/assets/components/commerce_spraypay',
+    'target' => 'return MODX_ASSETS_PATH . \'components/\';',
+    'name' => 'commerce_spraypay',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'vehicle_package' => 'transport',
+  'guid' => '063bc75b927058a367af2f42d7b52205',
+  'package' => '',
+  'signature' => 'bb8856f8f8196a15e811c74356367e8f',
+  'native_key' => '063bc75b927058a367af2f42d7b52205',
+);

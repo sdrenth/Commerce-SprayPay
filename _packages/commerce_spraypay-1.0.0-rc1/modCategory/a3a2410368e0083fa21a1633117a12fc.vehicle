@@ -1,0 +1,34 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'abort_install_on_vehicle_fail' => true,
+  'namespace' => 'commerce_spraypay',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"commerce_spraypay-1.0.0-rc1\\/modCategory\\/a3a2410368e0083fa21a1633117a12fc.tables.resolver.resolver","type":"php","name":"tables.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f268ac97992c579dae9f1453e47a80d0',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'a3a2410368e0083fa21a1633117a12fc',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"Commerce_SprayPay","rank":0}',
+);
