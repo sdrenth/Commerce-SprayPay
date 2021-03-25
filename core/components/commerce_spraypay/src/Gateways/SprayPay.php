@@ -63,8 +63,8 @@ class SprayPay implements GatewayInterface, ConditionallyAvailableGatewayInterfa
         try {
             $this->client = new SprayPayApiClient();
 
-            $this->client->setApiKey($this->method->getProperty('api_key'));
-            $this->client->setWebshopId($this->method->getProperty('webshop_id'));
+            $this->client->setApiKey($this->method->getProperty('api_key', ''));
+            $this->client->setWebshopId($this->method->getProperty('webshop_id', ''));
 
             if ($this->adapter->getOption('commerce.mode') === 'test') {
                 $this->client->setTestMode();
