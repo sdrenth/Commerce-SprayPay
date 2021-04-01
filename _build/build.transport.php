@@ -98,16 +98,16 @@ $modx->log(modX::LOG_LEVEL_INFO,'Packaged in core, requirements validator, and m
  *
  * If you have web-accessible assets in core/components/<package>/, then uncomment this section to package them too
  */
-$builder->package->put(
-    [
-        'source' => $sources['source_assets'],
-        'target' => "return MODX_ASSETS_PATH . 'components/';",
-    ],
-    [
-        'vehicle_class' => 'xPDOFileVehicle',
-    ]
-);
-$modx->log(modX::LOG_LEVEL_INFO,'Packaged in assets.'); flush();
+//$builder->package->put(
+//    [
+//        'source' => $sources['source_assets'],
+//        'target' => "return MODX_ASSETS_PATH . 'components/';",
+//    ],
+//    [
+//        'vehicle_class' => 'xPDOFileVehicle',
+//    ]
+//);
+//$modx->log(modX::LOG_LEVEL_INFO,'Packaged in assets.'); flush();
 
 /**
  * Settings

@@ -19,16 +19,16 @@
     0 => 
     array (
       'type' => 'php',
-      'body' => '{"source":"commerce_spraypay-1.0.0-rc1\\/modCategory\\/a3a2410368e0083fa21a1633117a12fc.tables.resolver.resolver","type":"php","name":"tables.resolver"}',
+      'body' => '{"source":"commerce_spraypay-1.0.0-rc1\\/modCategory\\/b047674da0a4917c00eb2ddcde9a18e5.tables.resolver.resolver","type":"php","name":"tables.resolver"}',
     ),
   ),
   'validate' => NULL,
   'vehicle_package' => 'transport',
   'vehicle_class' => 'xPDOObjectVehicle',
-  'guid' => 'f268ac97992c579dae9f1453e47a80d0',
+  'guid' => '36c372a13d8fd94a913e60aa4502f7cb',
   'package' => 'modx',
   'class' => 'modCategory',
-  'signature' => 'a3a2410368e0083fa21a1633117a12fc',
+  'signature' => 'b047674da0a4917c00eb2ddcde9a18e5',
   'native_key' => NULL,
   'object' => '{"id":null,"parent":0,"category":"Commerce_SprayPay","rank":0}',
 );

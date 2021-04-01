@@ -17,15 +17,11 @@ if ($transport->xpdo) {
             }
 
             $manager = $modx->getManager();
-            $logLevel = $modx->setLogLevel(modX::LOG_LEVEL_ERROR);
 
             $objects = ['comSprayPayChargeback'];
-
             foreach ($objects as $obj) {
                 $manager->createObjectContainer($obj);
             }
-
-            $modx->setLogLevel(modX::LOG_LEVEL_FATAL);
 
             break;
     }

@@ -9,10 +9,10 @@
   'validate' => NULL,
   'vehicle_package' => 'transport',
   'vehicle_class' => 'xPDOObjectVehicle',
-  'guid' => '42d83fcb024fdd35b5bf5be5300dfbc9',
+  'guid' => 'ab12c342dd5ed60de72068c14e5e35d3',
   'package' => 'modx',
   'class' => 'modNamespace',
-  'signature' => 'eb88d201e8018c22e2fc11e29a556f35',
+  'signature' => '789238e5fa3a2ccc46f5511b93ee5285',
   'native_key' => 'commerce_spraypay',
   'object' => '{"name":"commerce_spraypay","path":"{core_path}components\\/commerce_spraypay\\/","assets_path":"{assets_path}components\\/commerce_spraypay\\/"}',
 );
