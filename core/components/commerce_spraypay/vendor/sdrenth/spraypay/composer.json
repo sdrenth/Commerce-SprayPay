@@ -1,0 +1,12 @@
+{
+    "name": "sdrenth/spraypay",
+    "description": "SprayPay API client for PHP",
+    "require": {
+    },
+    "autoload": {
+      "psr-4": {
+        "Sdrenth\\SprayPay\\": "src/"
+      }
+    },
+    "minimum-stability": "dev"
+}
